@@ -5,12 +5,7 @@
 # Combines:
 #   A. IMPACT individual-level analysis
 #   B. GermWatch population-level surveillance analysis
-#
-# Consolidated from the user's uploaded IMPACT and GermWatch R scripts.
-#
-# NOTE:
-#   This script preserves the substantive analysis steps while removing repeated
-#   read/write/re-import cycles and absolute paths from multiple Windows users.
+
 ################################################################################
 
 # ==============================================================================
@@ -716,11 +711,7 @@ write_xlsx(
 
 
 # ==============================================================================
-# 14. EXPLORATORY IMPACT FIGURES PRESENT IN THE ORIGINAL R SCRIPT
-#
-# These plots were present in the uploaded code. They are retained here as
-# exploratory outputs and should NOT automatically be labeled as manuscript
-# figures until they are matched to the submitted manuscript.
+# 14. EXPLORATORY IMPACT FIGURES 
 # ==============================================================================
 
 # A. Viral cases by month and age group
@@ -1569,7 +1560,7 @@ write_xlsx(
 
 
 # ==============================================================================
-# 29. GERMWATCH MANUSCRIPT FIGURE 1 -- ORIGINAL VISUALIZATION (UNCHANGED)
+# 29. GERMWATCH MANUSCRIPT FIGURE 1 
 # ==============================================================================
 
 # This figure is based on the separately supplied pre-aggregated monthly file.
